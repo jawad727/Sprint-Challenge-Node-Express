@@ -26,13 +26,23 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+2 parts of express i learned this week are routing and 
+middleware
+
 - [ ] Describe Middleware?
+Middleware is basically like a gatekeeper that can change an item, check it for somthing, or just let it pass. There are 2 types of middleware, global and local. In wednesdays project we played around with local by creating some middleware that would change any name into all caps. Today i used global by changing all info i got intoo JSON notation so node can read it.
 
 - [ ] Describe a Resource?
 
+
 - [ ] What can the API return to help clients know if a request was successful?
 
+it can return a status in the 200s
+
 - [ ] How can we partition our application into sub-applications?
+
+by breaking them up into routers, like my actionRouter and projectRouter
+
 
 ## Project Setup
 
